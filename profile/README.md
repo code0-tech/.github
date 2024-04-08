@@ -36,7 +36,7 @@ Hydra is a WebSocket library built on uWebSockets. All communication within our 
 
 ***
 ### About Telescopium
-Explore the [repository](https://github.com/code0-tech/telescopium)
 ![telescopiumThumbnail](https://github.com/code0-tech/.github/assets/52959657/add5c246-d9cb-4305-9690-7e7b43426f93)
+Explore the [repository](https://github.com/code0-tech/telescopium)
 
 Telescopium serves as our comprehensive documentation hub. Whether you're looking to leverage our software like Hydra or explore other components, Telescopium is your first destination for guidance and understanding code0.
