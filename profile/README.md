@@ -1,17 +1,34 @@
 ## What is Code0, you might ask?
-Code0 is a no-code backend creator, designed to empower users to develop backends without the need for programming skills.
 
-Our objective is to revolutionize conventional backend development. Traditional backend projects often entail lengthy processes, from deployment to programming and planning. Our objective is to simplify this process by introducing an application that provides users with the ability to create whatever they need.
+Code0 is a no-code backend creator, revolutionizing conventional backend development by empowering users to build
+backends without programming skills.
 
-Whether it's a backend for a personal project or a robust event-flow backend supporting applications with millions of users, Code0 makes it all possible. From RESTful APIs to event flows. Both seasoned developers and newcomers can effortlessly create and deploy the foundation for their upcoming product..
+With our platform, users can streamline the backend development process, eliminating the need for lengthy deployment,
+programming, and planning. Through a node-based editor, you can create robust event flows, RESTful APIs, or event-based
+systems effortlessly.
 
-Creating a backend is now a breeze. Through our web application, you can effortlessly design the structure of a database or an event flow. With intuitive components, you can define flows, structures, and all the necessary components for your backend.
+Imagine this scenario: you're envisioning the backend for your next social media app. You start by defining the database
+structure via a model, then seamlessly implement the logic by creating a flow—all without writing a single line of code.
+Validation and routing are configurable within the node.
+
+Once you've completed the logic and database declaration, let's discuss testing and deployment. Testing your flows
+seamlessly integrates into our editor, while deployment options include hosting on our cloud server or self-hosting.
+
+Whether you're building a backend for a personal project or a high-traffic application, Code0 makes it all possible.
+From RESTful APIs to event flows, our platform caters to both seasoned developers and newcomers, enabling effortless
+creation and deployment of backend foundations.
 
 ## How do we build Code0?
-With ambitions as grand as ours, we've established fundamental principles for Code0: transparency, security, and innovation. These values underpin our commitment to openness, ensuring that our journey is shared with the community. We recognize that a robust and dependable product is born from iterative development, rigorous testing, and, most importantly, user feedback. Thus, we've embraced an open-source approach, inviting contributions from everyone, including you, to shape the future of Code0.
+
+With ambitious goals at the core of our mission, Code0 operates on fundamental principles: innovations, reliability,
+transparency and security. These values are the bedrock of our commitment to openness, ensuring that our journey is
+shared with the community. We understand that a reliable product stems from iterative development, rigorous testing, and
+user feedback. That's why we've adopted an open-source approach, inviting contributions from all—including you—to
+collectively shape the future of Code0.
 
 **Don't hesitate to check out some of our projects and make your contribution!**
 ***
+
 ### About Sagittarius
 
 <a href="https://github.com/code0-tech/sagittarius">
