@@ -13,30 +13,48 @@ With ambitions as grand as ours, we've established fundamental principles for Co
 **Don't hesitate to check out some of our projects and make your contribution!**
 ***
 ### About Sagittarius
-![sagittariusThumbnail](https://github.com/code0-tech/.github/assets/52959657/fb6d6564-3bff-4658-939d-2548797a0709)
 
+<a href="https://github.com/code0-tech/sagittarius">
+<img src="https://github.com/code0-tech/.github/assets/52959657/fb6d6564-3bff-4658-939d-2548797a0709" width="50%" height="50%" alt="sagittarius">
+</a>
 Explore the [repository](https://github.com/code0-tech/sagittarius)
 
-Sagittarius serves as the backbone of our project. Built with Ruby on Rails, it powers the application, enabling users to craft their own backends. From managing user data to handling the intricate logic of your backend, Sagittarius does it all.
+Sagittarius serves as the backbone of our project. Built with Ruby on Rails, it powers the application, enabling users
+to craft their own backends. From managing user data to handling the intricate logic of your backend, Sagittarius does
+it all.
 
 ***
-### About Pictor
-![pictorThumbnail](https://github.com/code0-tech/.github/assets/52959657/9cd8426c-b807-41c0-828f-a8b11229e22c)
 
+### About Pictor
+
+<a href="https://github.com/code0-tech/pictor">
+<img src="https://github.com/code0-tech/.github/assets/52959657/9cd8426c-b807-41c0-828f-a8b11229e22c" width="50%" height="50%" alt="pictor">
+</a>
 Explore the [repository](https://github.com/code0-tech/pictor)
 
-Pictor represents our very own React component library. It serves as the cornerstone of all our web applications, offering a wealth of inspiration for developers.
+Pictor represents our very own React component library. It serves as the cornerstone of all our web applications,
+offering a wealth of inspiration for developers.
 
 ***
+
 ### About Hydra
-![hydraThumbnail](https://github.com/code0-tech/.github/assets/52959657/5db6e86d-e255-4e3e-aee6-ba76b78020ec)
 
+<a href="https://github.com/code0-tech/hydra">
+<img src="https://github.com/code0-tech/.github/assets/52959657/5db6e86d-e255-4e3e-aee6-ba76b78020ec" width="50%" height="50%" alt="hydra">
+</a>
 Explore the [repository](https://github.com/code0-tech/hydra)
-Hydra is a WebSocket library built on uWebSockets. All communication within our software ecosystem is powered by Hydra, ensuring seamless interaction.
+
+Hydra is a WebSocket library built on uWebSockets. All communication within our software ecosystem is powered by Hydra,
+ensuring seamless interaction.
 
 ***
+
 ### About Telescopium
-![telescopiumThumbnail](https://github.com/code0-tech/.github/assets/52959657/add5c246-d9cb-4305-9690-7e7b43426f93)
+
+<a href="https://github.com/code0-tech/telescopium">
+<img src="https://github.com/code0-tech/.github/assets/52959657/add5c246-d9cb-4305-9690-7e7b43426f93" width="50%" height="50%" alt="telescopium">
+</a>
 Explore the [repository](https://github.com/code0-tech/telescopium)
 
-Telescopium serves as our comprehensive documentation hub. Whether you're looking to leverage our software like Hydra or explore other components, Telescopium is your first destination for guidance and understanding code0.
+Telescopium serves as our comprehensive documentation hub. Whether you're looking to leverage our software like Hydra or
+explore other components, Telescopium is your first destination for guidance and understanding code0.
