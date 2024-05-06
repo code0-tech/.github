@@ -18,7 +18,7 @@ Whether you're building a backend for a personal project or a high-traffic appli
 From RESTful APIs to event flows, our platform caters to both seasoned developers and newcomers, enabling effortless
 creation and deployment of backend foundations.
 
-## How do we build Code0?
+## How we build Code0?
 
 With ambitious goals at the core of our mission, Code0 operates on fundamental principles: innovations, reliability,
 transparency and security. These values are the bedrock of our commitment to openness, ensuring that our journey is
