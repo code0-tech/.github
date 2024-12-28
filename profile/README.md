@@ -56,19 +56,6 @@ offering a wealth of inspiration for developers.
 
 ***
 
-### About Hydra
-
-<a href="https://github.com/code0-tech/hydra">
-<img src="https://github.com/code0-tech/.github/assets/52959657/5db6e86d-e255-4e3e-aee6-ba76b78020ec" width="50%" height="50%" alt="hydra">
-</a>
-
-Explore the [repository](https://github.com/code0-tech/hydra)
-
-Hydra is a WebSocket library built on uWebSockets. All communication within our software ecosystem is powered by Hydra,
-ensuring seamless interaction.
-
-***
-
 ### About Telescopium
 
 <a href="https://github.com/code0-tech/telescopium">
