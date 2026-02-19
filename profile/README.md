@@ -1,68 +1,49 @@
-## What is Code0, you might ask?
+# CodeZero
 
-Code0 is a no-code backend creator, revolutionizing conventional backend development by empowering users to build
-backends without programming skills.
+[![Discord](https://img.shields.io/discord/1173625923724124200?label=Discord&logo=discord&style=for-the-badge)](https://discord.com/invite/AyMB7DtA7P)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?logo=instagram&logoColor=white&style=for-the-badge)](https://www.instagram.com/codezero.tech/)
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?logo=youtube&logoColor=white&style=for-the-badge)](https://www.youtube.com/@CodeZeroBuild)
 
-With our platform, users can streamline the backend development process, eliminating the need for lengthy deployment,
-programming, and planning. Through a node-based editor, you can create robust event flows, RESTful APIs, or event-based
-systems effortlessly.
+![CodeZero Thumbnail](./images/CodeZero_Thumbnail.png)
 
-Imagine this scenario: you're envisioning the backend for your next social media app. You start by defining the database
-structure via a model, then seamlessly implement the logic by creating a flow — all without writing a single line of code.
-Validation and routing are configurable within the node.
+## What is CodeZero?
 
-Once you've completed the logic and database declaration, let's discuss testing and deployment. Testing your flows
-seamlessly integrates into our editor, while deployment options include hosting on our cloud server or self-hosting.
+CodeZero is an open-source platform for building, managing, and automating flows, as well as organizing projects, organizations, roles, members, and users. It enables comprehensive process automation and organizational management in a scalable, modular system.
 
-Whether you're building a backend for a personal project or a high-traffic application, Code0 makes it all possible.
-From RESTful APIs to event flows, our platform caters to both seasoned developers and newcomers, enabling effortless
-creation and deployment of backend foundations.
+A "flow" in CodeZero is a sequence of connected nodes, each representing a step in a process. Flows can be used to automate business logic, data processing, integrations, and more. Projects and organizations provide structure and access control, while roles and members enable fine-grained permissions and collaboration.
 
-## How we build Code0?
+## Architecture & Infrastructure
 
-With ambitious goals at the core of our mission, Code0 operates on fundamental principles: innovations, reliability,
-transparency and security. These values are the bedrock of our commitment to openness, ensuring that our journey is
-shared with the community. We understand that a reliable product stems from iterative development, rigorous testing, and
-user feedback. That's why we've adopted an open-source approach, inviting contributions from all—including you—to
-collectively shape the future of Code0.
+- **Frontend (sculptor):** The main user interface, built with Next.js and React. Users create and manage flows, projects, organizations, and more. Sculptor communicates directly with the backend service.
+- **Backend (sagittarius):** Central service for data storage, orchestration, and validation. All data (flows, projects, organizations, users, etc.) is persisted here. Sculptor communicates exclusively with Sagittarius.
+- **Runtime Block:**
+  - **Aquila:** Gateway for a runtime. Manages connections, receives triggers, and coordinates execution.
+  - **Taurus:** Executes flows. Contains all standard functions and data types. Highly scalable and can be extended with custom logic.
+  - **Draco:** Adapter for external requests (e.g., HTTP, MQTT). Triggers executions in the runtime.
+  - **Actions & Action SDK:** Plugin system for extending runtimes. Actions can define new flow types, nodes, and triggers. They connect to Aquila and can be developed independently.
+- **Runtimes:** Any number of runtime blocks can connect to Sagittarius. Each service (Aquila, Taurus, Draco) is individually scalable. This allows for hybrid setups: use the frontend in the cloud and connect your own local runtimes for self-hosting and data sovereignty.
 
-**Don't hesitate to check out some of our projects and make your contribution!**
-***
+## Key Concepts
 
-### About Sagittarius
+- **Project:** Workspace for organizing flows, resources, and settings.
+- **Organization:** Collection of projects and users, representing a company or team.
+- **Role:** Defines permissions and access rights for members.
+- **Member:** User assigned to a project or organization with a specific role.
+- **User:** Individual account in the system.
+- **Flow:** Directed graph of nodes, representing a process or automation. Flows have settings to control their behavior.
+- **Node:** An individual step in a flow, with parameters and logic.
+- **Flow Type:** Defines the structure, input, and output types for a flow.
+- **Parameter:** Nodes have parameters that define their input and configuration.
+- **Action:** Plugin that extends a runtime with new flow types, nodes, and triggers.
 
-<a href="https://github.com/code0-tech/sagittarius">
-<img src="https://github.com/code0-tech/.github/assets/52959657/fb6d6564-3bff-4658-939d-2548797a0709" width="50%" height="50%" alt="sagittarius">
-</a>
+## Contribution & Community
 
-Explore the [repository](https://github.com/code0-tech/sagittarius)
+CodeZero is modular and extensible. You can define new flow types, nodes, roles, organizational structures, and extend runtimes with Actions. Contributions are welcome—join the community to help improve process automation and organizational management.
 
-Sagittarius serves as the backbone of our project. Built with Ruby on Rails, it powers the application, enabling users
-to craft their own backends. From managing user data to handling the intricate logic of your backend, Sagittarius does
-it all.
+## License
 
-***
+The licensing for CodeZero and its components may vary. Please refer to the LICENSE file(s) in each subproject for details. Not all components are under the MIT license, and some restrictions may apply.
 
-### About Pictor
+---
 
-<a href="https://github.com/code0-tech/pictor">
-<img src="https://github.com/code0-tech/.github/assets/52959657/9cd8426c-b807-41c0-828f-a8b11229e22c" width="50%" height="50%" alt="pictor">
-</a>
-
-Explore the [repository](https://github.com/code0-tech/pictor)
-
-Pictor represents our very own React component library. It serves as the cornerstone of all our web applications,
-offering a wealth of inspiration for developers.
-
-***
-
-### About Telescopium
-
-<a href="https://github.com/code0-tech/telescopium">
-<img src="https://github.com/code0-tech/.github/assets/52959657/add5c246-d9cb-4305-9690-7e7b43426f93" width="50%" height="50%" alt="telescopium">
-</a>
-
-Explore the [repository](https://github.com/code0-tech/telescopium)
-
-Telescopium serves as our comprehensive documentation hub. Whether you're looking to leverage our software like Hydra or
-explore other components, Telescopium is your first destination for guidance and understanding code0.
+*Made with ❤️ by the CodeZero community*
